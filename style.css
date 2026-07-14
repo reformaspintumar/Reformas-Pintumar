@@ -75,7 +75,7 @@ footer{
 footer a{
     color:#25D366;
 }
-.empresa{
+.tarjeta{
     max-width:1200px;
     margin:auto;
     display:flex;
@@ -84,27 +84,27 @@ footer a{
     padding:70px 20px;
 }
 
-.empresa-img{
+.tarjeta-img{
     flex:1;
 }
 
-.empresa-img img{
+.tarjeta-img img{
     width:100%;
     border-radius:15px;
     box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
 
-.empresa-texto{
+.tarjeta-texto{
     flex:1;
 }
 
-.empresa-texto h2{
+.tarjeta-texto h2{
     color:#0d47a1;
     font-size:38px;
     margin-bottom:20px;
 }
 
-.empresa-texto p{
+.tarjeta-texto p{
     font-size:20px;
     line-height:1.8;
     margin-bottom:20px;
@@ -112,7 +112,7 @@ footer a{
 
 @media(max-width:900px){
 
-.empresa{
+.tarjeta{
 flex-direction:column;
 }
 
